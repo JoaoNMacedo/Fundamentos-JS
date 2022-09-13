@@ -1,0 +1,68 @@
+html {
+    background-color: pink;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+    
+ul {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color:inherit;    
+}
+a:hover{
+    text-decoration: underline;
+}
+
+
+#barra_nav{
+    float: right
+;
+}
+#barra_nav li{
+    display: inline-block;
+    margin:8px;
+}
+#barra_nav #DA {
+    background-color:rgb(42, 96, 243);
+    padding: 7px 15px;
+    border-radius: 4px;
+    font-weight: bold;
+    color: white;
+
+}
+#barra_nav li{
+    margin-right: 40px;
+}
+#foto img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+    margin-top: 200px;
+    margin-bottom: 40px;
+}
+#barrapesquisa{
+    text-align: center;
+}
+#bar {
+    width: 450px;
+    line-height: 20px;
+
+}
+#botoes{
+    text-align: center;
+    margin-top: 30px;
+
+}
+.botaovermeio{
+    background-color: rgb(248, 113, 113);
+border-radius: 4px;
+}
